@@ -1,0 +1,83 @@
+
+#aside img{
+ width: 100%;
+ margin-top: 76px;
+}
+#aside h2{
+    margin-top: -140px;
+   margin-bottom: -10px;
+    font-family: Heebo ExtraBold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+#aside p{
+    text-align: center;
+     color: white;
+     font-size: 25px;
+     line-height: 4px;
+     font-size: 28px;
+     font-family: Heebo regular;
+}
+#choose {
+    text-align: center;
+}
+#choose h1{
+    margin-top: 45px;
+    font-size: 30px;
+    font-family:Heebo ExtraBold;
+    color: #464545;
+   text-align: center;
+}
+#defartment{
+    margin-right: 15%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+    column-gap: 4%;
+    align-content: center;
+    align-content: space-between;
+    row-gap: 30px;
+}
+#defartment img{
+ width: 270px;
+height: 180px; 
+position: relative;
+}
+#defartment a{
+    position: absolute;
+}
+.buttem a{
+   text-decoration: none;
+   text-align: center;
+   z-index: 1;
+   background-color: #cd2034;
+   border-radius: 20px;
+   color: white;
+   font-size: 18px;
+   font-family: Heebo regular;
+    font-weight: bold;
+    width: 200px;
+    line-height: 30px;
+    margin-top: 130px;
+}
+.buttem{
+   display: flex;
+   justify-content: center;
+   
+}
+.buttem img:nth-child(2){
+    display: none;
+}
+.buttem:hover :nth-child(2){
+    display: block;
+}
+.buttem:hover :nth-child(1){
+    display: none;
+}
+#center p{
+    text-align: center;
+    }

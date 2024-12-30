@@ -1,0 +1,178 @@
+body{
+    margin-top: 0px;
+}
+html{
+    direction: rtl;
+}
+
+nav{
+    background-color:#f8f9fa;;
+    width: 100%;
+    line-height: 35px;
+    display: flex;
+    gap: 5%;
+    justify-content: center; 
+    align-items: center;
+    position: fixed; 
+    z-index: 100;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#494848;
+}
+.nativ img{
+    width: 160px; 
+}
+#join{
+    background-color:rgb(205 32 51);
+    border-radius: 13px;
+    width: 140px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+#join a{
+    color: rgb(255, 255, 255);
+}
+nav select{
+    height: 40px;
+    width: px;
+    font-size: 20px;
+    color:#216896;
+    border-radius: 3px;
+}
+nav a:hover{
+    color:rgb(205 32 51) ;
+}
+#home{
+    color:rgb(205 32 51) ;  
+}
+#pooter{
+    background-color: #494848;
+    width: 100%;
+    height: 280px;
+}
+
+#number {
+    color: white;
+    font-size: 40px;
+    font-family: Heebo ExtraBold;
+    padding-top: 80px;
+}
+#number2{
+    color: white;
+    font-size: 25px;
+}
+#number3{
+    color: white;
+    font-size: 25px;
+}
+#number p{
+   font-family: Heebo ExtraBold;
+}
+#pooter{
+    line-height: 3px;
+}
+#menupooter{
+    display: flex;
+    justify-content: center;
+      gap: 7%;
+}
+#menupooter a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+#hours p{
+    text-align: center;
+    font-size: 30px;
+    color: #216896;
+}
+.hours2 {
+    font-size: 25px;
+    color: #216896;
+    font-weight: bold;
+    line-height: 0.5px;
+}
+.hours2 p{
+    text-align: center;
+    
+}
+#burger {
+ display: none; 
+margin-left: 40%;
+}
+#center p{
+    text-align: center;
+    }
+    #hovermenu{
+        display: none;
+    }
+    #menu{
+        display: flex;
+        gap: 60px;
+    }
+    
+    #top img{
+        padding-top: 550px;
+        position: absolute;
+        position: fixed;
+     z-index: 300;
+    }
+@media (max-width: 1287px) and (min-width: 390px){
+    #burger{
+        display: block;
+        margin-right: -420px;
+          }
+          nav a{
+            display: none;   
+          }
+          #menu{
+            display: none; 
+          }
+          nav form{
+            display: none;  
+          }
+          #join{
+            display: none;
+          }
+          .menuhover:hover #menu{
+            display: block;
+            position: absolute;
+            top: 40px;
+            font-size: smaller;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 8%;
+            background-color: black; height: 100vh;
+            opacity: 0.8;
+            width: 250px;
+            margin-right: -62%;
+            margin-top: 40px;
+            color: white;
+          }
+          nav a{
+            display: block;
+            color: white;
+            margin-right: 30px;
+            font-size: 20px;
+            font-family: Hebbo regular;
+          }
+          #covernativ{
+             background-color: rgb(217 217 217);
+             height: 1500px !important;
+          }
+          #imgren{
+            display: none;
+          }
+          #come{
+           margin-right: 100px !important;
+          }
+          #imgstart{
+            display: none;
+          }
+            }
+
